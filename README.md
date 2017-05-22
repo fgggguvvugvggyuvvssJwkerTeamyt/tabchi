@@ -1,4 +1,4 @@
-<p align="center"> <img src="http://up.upinja.com/31b6d.jpg" width="240">
+<p align="center"> <img src="http://up.upinja.com/ptx2r.jpg" width="240">
 <h1><p align="center">تبچی(تبلیغات جوکرتیم)
 <h2><p align="center">سرعت 💠 دقت 💠 قدرت
 <div align="center">
