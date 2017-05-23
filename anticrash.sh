@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 while true ; do
-  for entr in tabchi-*.sh ; do
+  for entr in TaBchi-*.sh ; do
     entry="${entr/.sh/}"
     tmux kill-session -t $entry
     rm -rf ~/.telegram-cli/$entry/data/animation/*
@@ -16,14 +16,13 @@ while true ; do
     tmux detach -s $entry
   done
    echo -e "${CYAN}|-------------|---------------|----------------|----------------|${NC}"
-echo -e "${CYAN}|EDIT     __  |BY  _______    | ___ERPO P.E___ |  ____________  |${NC}"
+echo -e "${CYAN}|EDIT     __  |BY  _______    | ___Mr_jwKeR___ |  ____________  |${NC}"
 echo -e "${CYAN}|        |  | |   /  __   \   | \  \      /  / | |   _________| |${NC}"
 echo -e "${CYAN}|        |  | |  /  |  |   \  |  \  \    /  /  | |  |_________  |${NC}"
 echo -e "${CYAN}| ___    /  / | |   |  |    | |   \  \  /  /   | |   _________| |${NC}"
 echo -e "${CYAN}| \  \__/  /  |  \  |__|   /  |    \  \/  /    | |  |_________  |${NC}"
 echo -e "${CYAN}|  \______/   |   \_______/   |     \____/     | |____________| |${NC}"
 echo -e "${CYAN}|-------------|---------------|----------------|----------------|${NC}"
-echo -e "${CYAN}|THIS SOURCE IS ITEAM AND DECOMPILED FOR JOVETABCHI BY. ERPO P.E|${NC}"
 echo -e "${CYAN}|-------------|---------------|----------------|----------------|${NC}"
 echo -e "${CYAN}YOUR TABCHIES RUNING NOW! PLEASE CLOSE YOUR TERMINAL WINDOW WITH CTRL+C${NC}"
   sleep 1000
